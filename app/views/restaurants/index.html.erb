@@ -1,0 +1,17 @@
+<div class="flexbox">
+    <div class="restaurant-container">
+    <h1>Restaurants:</h1>
+
+      <% @restaurants.each do |restaurant| %>
+        <p>
+          <a class="resto-name" href="<%= restaurant_path(restaurant) %>"> <%= restaurant.name %> </a>
+        </p>
+      <% end %>
+
+
+    <%= link_to "Create a new restaurant", new_restaurant_path, class: "btn btn-primary font-white" %>
+  </div>
+</div>
+
+
+

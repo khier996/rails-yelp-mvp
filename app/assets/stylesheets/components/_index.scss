@@ -1,0 +1,48 @@
+@import "alert";
+@import "avatars";
+@import "badges";
+
+.flexbox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.restaurant-container {
+  text-align: center;
+}
+
+.unstyled {
+  list-style-type: none;
+  text-align: left;
+}
+
+.resto-name {
+  font-size: 3rem;
+  margin-bottom: 50px;
+}
+
+.horizontally-centered {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.font-white {
+  color: white;
+}
+
+.fork-icon {
+  margin-left: 30px;
+  font-size: 3rem;
+}
+
+.btn-new-resto {
+  background-color: #4bdd70;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-right: 30px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}

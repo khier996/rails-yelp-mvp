@@ -1,0 +1,13 @@
+<h1>Create a new restaurant</h1>
+
+<%= simple_form_for(@restaurant) do |f| %>
+<%= f.error_notification %>
+<div class="form-inputs">
+    <%= f.input :name %>
+    <%= f.input :category %>
+    <%= f.input :address %>
+    <%= f.input :phone_number %>
+    <%= f.button :submit, class: "btn-new-resto"  %>
+</div>
+<% end %>
+
